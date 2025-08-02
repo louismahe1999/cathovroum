@@ -1,10 +1,10 @@
-import './globals.css'
-import { ClerkProvider } from '@clerk/nextjs'
+import './globals.css';
+import { ClerkProvider } from '@clerk/nextjs';
 
 export const metadata = {
   title: 'CathoVroum',
   description: 'Covoiturage entre catholiques',
-}
+};
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -13,5 +13,5 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <body>{children}</body>
       </html>
     </ClerkProvider>
-  )
+  );
 }
