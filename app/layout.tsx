@@ -1,8 +1,6 @@
-import './globals.css'
-
 export const metadata = {
   title: 'CathoVroum',
-  description: 'Covoiturage entre catholiques',
+  description: 'Plateforme de covoiturage catholique',
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

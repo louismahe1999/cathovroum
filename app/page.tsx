@@ -1,8 +1,8 @@
 export default function Home() {
   return (
-    <main style={{ padding: '2rem' }}>
+    <main style={{ padding: '2rem', fontFamily: 'sans-serif' }}>
       <h1>CathoVroum fonctionne 🎉</h1>
-      <p>Page d’accueil simple, sans Clerk.</p>
+      <p>Version TypeScript avec build OK</p>
     </main>
   );
 }
